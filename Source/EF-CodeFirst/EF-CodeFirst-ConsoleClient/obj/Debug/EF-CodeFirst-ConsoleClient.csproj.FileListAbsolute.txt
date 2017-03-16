@@ -11,3 +11,12 @@ D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug
 D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EF-CodeFirst-ConsoleClient.exe.config
 D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\obj\Debug\EF-CodeFirst-ConsoleClient.exe
 D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\obj\Debug\EF-CodeFirst-ConsoleClient.pdb
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EF-CodeFirst-ConsoleClient.exe
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EF-CodeFirst-ConsoleClient.pdb
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EntityFramework.dll
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\Model.dll
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\Model.pdb
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EntityFramework.xml
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\EF-CodeFirst-ConsoleClient\obj\Debug\EF-CodeFirst-ConsoleClient.csprojResolveAssemblyReference.cache
