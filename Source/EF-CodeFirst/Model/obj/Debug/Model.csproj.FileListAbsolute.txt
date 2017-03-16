@@ -1,0 +1,12 @@
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\Model.dll.config
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\Model.dll
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\Model.pdb
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\EntityFramework.dll
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\EntityFramework.xml
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\obj\Debug\Model.dll
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\obj\Debug\Model.pdb
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\obj\Debug\Model.Migrations.InitialCreate.resources
+D:\ORM-BleuCoffee\Source\Tools\EF-CodeFirst\Model\obj\Debug\Model.csproj.GenerateResource.Cache

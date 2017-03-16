@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-CodeFirst-ConsoleClient", "EF-CodeFirst-ConsoleClient\EF-CodeFirst-ConsoleClient.csproj", "{E2AB2136-A74D-47B7-B043-94AA79034FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{C09C8F1A-5382-4D45-A0C4-55549C84A181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2AB2136-A74D-47B7-B043-94AA79034FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AB2136-A74D-47B7-B043-94AA79034FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AB2136-A74D-47B7-B043-94AA79034FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AB2136-A74D-47B7-B043-94AA79034FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09C8F1A-5382-4D45-A0C4-55549C84A181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09C8F1A-5382-4D45-A0C4-55549C84A181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09C8F1A-5382-4D45-A0C4-55549C84A181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09C8F1A-5382-4D45-A0C4-55549C84A181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
