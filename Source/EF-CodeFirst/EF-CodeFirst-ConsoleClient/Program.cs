@@ -14,14 +14,56 @@ namespace EF_CodeFirst_ConsoleClient
 
             AppContext db = new AppContext();
 
+            string companyId = AddCompany(db);
+            Commit(db);
+
+            string employeeId = AddEmployee(db, companyId);
+            Commit(db);
+        }
+
+        private static string AddEmployee(AppContext db, string companyId)
+        {
+            Employee employee = new Employee()
+            {
+                Id = Guid.NewGuid().ToString(),
+                Created = DateTime.Now,
+                CreatedBy = "System",
+                Modified = DateTime.Now,
+                ModifiedBy = "System",
+                IsActive = true,
+
+                Name = "Mehedi Sourav",
+                CompanyId = companyId,
+                Designation = "Software Engineer",
+                JoiningDate = DateTime.Today.AddDays(-1)
+            };
+            db.Employees.Add(employee);
+
+            return employee.Id;
+        }
+
+        private static bool Commit(AppContext db)
+        {
+            int saveChanges = db.SaveChanges();
+            return saveChanges > 0;
+        }
+
+        private static string AddCompany(AppContext db)
+        {
+
+            if (db.Companies.Any())
+            {
+                var firstOrDefault = db.Companies.FirstOrDefault();
+                if (firstOrDefault != null) return firstOrDefault.Id;
+            }
 
             Company company = new Company()
             {
                 Id = Guid.NewGuid().ToString(),
                 Created = DateTime.Now,
                 CreatedBy = "System",
-                Modified =  DateTime.Now,
-                ModifiedBy =  "System",
+                Modified = DateTime.Now,
+                ModifiedBy = "System",
                 IsActive = true,
 
                 Name = "Index IA Limited",
@@ -30,7 +72,8 @@ namespace EF_CodeFirst_ConsoleClient
             };
 
             db.Companies.Add(company);
-            db.SaveChanges();
+
+            return company.Id;
         }
     }
 }
