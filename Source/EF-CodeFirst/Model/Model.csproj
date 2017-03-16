@@ -52,10 +52,15 @@
   <ItemGroup>
     <Compile Include="AppContext.cs" />
     <Compile Include="Company.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Migrations\201703160526324_InitialCreate.cs" />
     <Compile Include="Migrations\201703160526324_InitialCreate.Designer.cs">
       <DependentUpon>201703160526324_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703160541145_EmployeeModelAdded.cs" />
+    <Compile Include="Migrations\201703160541145_EmployeeModelAdded.Designer.cs">
+      <DependentUpon>201703160541145_EmployeeModelAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +72,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201703160526324_InitialCreate.resx">
       <DependentUpon>201703160526324_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703160541145_EmployeeModelAdded.resx">
+      <DependentUpon>201703160541145_EmployeeModelAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -22,3 +22,4 @@ D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\Model\obj\Debug\Model.Migrat
 D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\Model\obj\Debug\Model.csproj.GenerateResource.Cache
 D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\Model\obj\Debug\Model.dll
 D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\Model\obj\Debug\Model.pdb
+D:\Personal\Github\EF-CodeFirst\Source\EF-CodeFirst\Model\obj\Debug\Model.Migrations.EmployeeModelAdded.resources
